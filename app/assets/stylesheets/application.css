@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ /*
+ *= require font-awesome
+ *
  /* Set height to 100% for body and html to enable the background image to cover the whole page: */
  body, html {
    height: 100%
@@ -40,8 +43,9 @@
  /* Logo Size */
 
  .mainlogo {
-  height: 10%;
-  width: 10%;
+  height: 8%;
+  width: 8%;
+  display:inline;
 }
 
  /* Position text in the top-left corner */
@@ -49,6 +53,20 @@
    position: absolute;
    top: 0;
    left: 16px;
+   padding: 2rem;
+ }
+
+ /* Position Logo */
+
+ .logo {
+   float: right;
+   text-align: right;
+   padding: 1rem;
+ }
+
+ .topleft p {
+   display:inline;
+   align-items: center;
  }
 
  /* Position text in the bottom-left corner */
