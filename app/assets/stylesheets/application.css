@@ -22,6 +22,11 @@
    font-size: calc(1em + 1vw);;
  }
 
+ a {
+   text-decoration: none;
+   color: white;
+ }
+
  .bgimg {
    /* Background image */
    background-image: url('background.jpg');
@@ -87,11 +92,6 @@
    text-align: center;
  }
 
- /* Style the <hr> element */
- hr {
-   margin: auto;
-   width: 40%;
- }
  @media screen and (min-width: 50em) {
    html {
      font-size: 2vw;
