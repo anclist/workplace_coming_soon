@@ -19,7 +19,11 @@
  /* Set height to 100% for body and html to enable the background image to cover the whole page: */
  body, html {
    height: 100%;
-   font-size: calc(1em + 1vw);;
+   font-size: calc(1em + 1vw);
+ }
+
+ p, h1 {
+   letter-spacing: 16px;
  }
 
  a {
